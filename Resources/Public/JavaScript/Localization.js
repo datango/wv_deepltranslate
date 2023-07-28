@@ -213,30 +213,6 @@ define('TYPO3/CMS/Backend/Localization', [
                     '</div>' +
                     '</div>',
                 )
-                actions.push(
-                    '<div class="row" id="googleTranslate">' +
-                    '<div class="btn-group col-sm-3">' +
-                    Localization.actions.googletranslate[0].outerHTML +
-                    '</div>' +
-                    '<div class="col-sm-9" id="googleText">' +
-                    '<p class="t3js-helptext t3js-helptext-translate text-muted">' +
-                    TYPO3.lang['localize.educate.googleTranslate'] +
-                    '</p>' +
-                    '</div>' +
-                    '</div>',
-                )
-                actions.push(
-                    '<div class="row" id="googleTranslateAuto">' +
-                    '<div class="btn-group col-sm-3">' +
-                    Localization.actions.googletranslateAuto[0].outerHTML +
-                    '</div>' +
-                    '<div class="col-sm-9" id="googleTextAuto">' +
-                    '<p class="t3js-helptext t3js-helptext-translate text-muted">' +
-                    TYPO3.lang['localize.educate.googleTranslateAuto'] +
-                    '</p>' +
-                    '</div>' +
-                    '</div>',
-                )
             }
 
             if ($triggerButton.data('allowCopy')) {
